@@ -334,3 +334,14 @@ footer p {
 .container .right div span {
     font-weight: 600;
 }
+
+.proyectos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+}
+
+.proyectos a img{
+    width: 100%;
+}
