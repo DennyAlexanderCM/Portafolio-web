@@ -1,0 +1,105 @@
+/*pantallas con resoluciones menores a 800px*/
+@media screen and (max-width: 768px) {
+    .nav-menu {
+        padding-top: 2rem;
+        position: fixed;
+        left: -100%;
+        z-index: 1;
+        top: 4.5rem;
+        flex-direction: column;
+        background-color: #202020;
+        width: 100%;
+        border-bottom-right-radius: 12px;
+        border-bottom-left-radius: 12px;
+        text-align: center;
+        transition: all 0.5s ease-in-out;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 0 0 2rem
+    }
+
+    .hamburger {
+        margin: auto 1rem;
+        display: block;
+        cursor: pointer;
+    }
+
+    .home .block {
+        width: 100%;
+        margin-left: 2rem;
+    }
+
+    .home .block h1 {
+        font-size: 2.5rem;
+    }
+
+    .home .block h6 {
+        font-size: 20px;
+    }
+
+    .home .block h3 {
+        font-size: 15px;
+    }
+
+    .home .block a {
+        font-size: 10px;
+        padding: 10px 30px;
+    }
+
+    .separador {
+        display: none;
+    }
+
+    .foto {
+        width: 100%;
+    }
+
+    .foto img {
+        width: 40%;
+    }
+
+    .about-me-information {
+        width: 100%;
+        padding: 1rem;
+        border-left: none;
+    }
+
+    .about-me-information p {
+        font-size: 1rem;
+    }
+
+    .social {
+        width: 100%;
+        padding: 1rem;
+        justify-content: space-evenly;
+    }
+
+    .social .items a {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .skill {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .left, .right {
+        width: 100%;
+    }
+
+    section {
+        padding: 1rem 0;
+    }
+}
